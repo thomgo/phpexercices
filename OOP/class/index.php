@@ -25,7 +25,7 @@ var_dump($customer);
 // Add other attributs
 $customer->firstname = "John";
 $customer->age = 42;
-$customer->paiements = ["visa", "mastercard", "paypal"];
+$customer->payments = ["visa", "mastercard", "paypal"];
 var_dump($customer);
 // Create a blank new instance of the Customer class without the previous attributs
 $customer2 = new Customer();

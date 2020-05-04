@@ -57,7 +57,7 @@ Qu'avez vous rajouté à votre objet stocké dans $customer ? Comment cela s'app
 Ajoutez maintenant les attributs suivants à votre objet :
 - firstname qui contient la string John
 - age qui contient l'integer 42
-- paiements qui contient un tableau avec les strings visa, mastercard et paypal
+- payments qui contient un tableau avec les strings visa, mastercard et paypal
 
 Faites un var_dump de $customer. L'objet contient-il tous les attributs attendus ?
 
@@ -71,4 +71,4 @@ Voyons maintenant jusqu'où peut aller la puissance de la POO. Admettons que not
 $customer->dog = $dog1;
 ```
 Refaites un var_dump de $customer. Que contient l'attribut dog ?
-Quelle est la relation dans le monde réel que nous venons de modéliser en POO ? 
+Quelle est la relation dans le monde réel que nous venons de modéliser en POO ?
